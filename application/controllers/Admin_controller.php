@@ -7,7 +7,6 @@ class Admin_controller extends CI_Controller
 public function login()
 {
    $this->load->view('Admin/login');
-   echo "divya hello";
 }
 public function signin()
 {
